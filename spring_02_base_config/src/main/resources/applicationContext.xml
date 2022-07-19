@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置bean-->
+    <!--
+    id代表bean的名称 唯一标识
+    class配置bean路径，代表bean的类型
+    name配置bean别名
+    scope指定bean是否为单例 默认单例
+    -->
+    <bean id="bookDao" class="com.red.dao.impl.BookDaoImpl"/>
+    <bean id="bookService" name="service,service2" class="com.red.service.impl.BookServiceImpl" scope="prototype">
+<!--        配置service与dao的关系-->
+<!--        property标签标识配置当前bean的属性-->
+<!--        name属性表示配置哪一个具体的属性 对应的是setBookDao 把set取掉 首字母小写后的 名字 bookDao-->
+<!--        ref属性表示参照哪一个bean-->
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+</beans>
