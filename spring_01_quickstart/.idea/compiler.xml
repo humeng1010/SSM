@@ -10,5 +10,9 @@
         <module name="spring_01_quickstart" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="spring_02_base_config" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

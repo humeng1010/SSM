@@ -11,9 +11,9 @@
     <bean id="bookService" class="com.red.service.impl.BookServiceImpl">
 <!--        配置service与dao的关系-->
 <!--        property标签标识配置当前bean的属性-->
-<!--        name属性表示配置哪一个具体的属性-->
+<!--        name属性表示配置哪一个具体的属性 对应的是setBookDao 把set取掉 首字母小写后的 名字 bookDao-->
 <!--        ref属性表示参照哪一个bean-->
-        <property name="BookDao" ref="bookDao"/>
+        <property name="bookDao" ref="bookDao"/>
     </bean>
 
 </beans>
