@@ -227,6 +227,12 @@ Spring+SpringBoot+MybatisPlus
 
 ![image-20220816183817390](https://raw.githubusercontent.com/redyouzi/images-for-blog/main/img02/202208161838441.png)
 
+### Spring整合MyBatis
+
+![image-20220817203614030](https://raw.githubusercontent.com/redyouzi/images-for-blog/main/img02/202208172036194.png)
+
+![image-20220817203648457](https://raw.githubusercontent.com/redyouzi/images-for-blog/main/img02/202208172036539.png)
+
 
 
 
