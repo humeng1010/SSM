@@ -13,7 +13,11 @@ Spring+SpringBoot+MybatisPlus
 
 ## SpringBoot
 
-语雀笔记地址:https://www.yuque.com/redyouzi/ssm/springmvc    (更新中)
+语雀笔记地址:https://www.yuque.com/redyouzi/ssm/springmvc
+
+## Maven进阶
+
+语雀笔记地址:https://www.yuque.com/redyouzi/ssm/maven    (更新中)
 
 ## MybatisPlus
 
