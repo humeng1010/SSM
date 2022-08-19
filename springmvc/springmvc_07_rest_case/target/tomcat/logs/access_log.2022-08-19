@@ -1,3 +1,0 @@
-127.0.0.1 - - [19/Aug/2022:14:00:59 +0800] "POST /books HTTP/1.1" 200 30 http-bio-80-exec-1 41
-127.0.0.1 - - [19/Aug/2022:14:01:53 +0800] "POST /books HTTP/1.1" 200 30 http-bio-80-exec-1 99
-127.0.0.1 - - [19/Aug/2022:14:02:30 +0800] "GET /books HTTP/1.1" 200 286 http-bio-80-exec-2 41
