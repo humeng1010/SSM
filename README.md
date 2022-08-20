@@ -20,8 +20,8 @@ Spring+SpringBoot+MybatisPlus
 
 ## SpringBoot入门
 
-语雀笔记地址:https://www.yuque.com/redyouzi/ssm/springboot    (更新中)
+语雀笔记地址:https://www.yuque.com/redyouzi/ssm/springboot
 
 ## MybatisPlus
 
-语雀笔记地址:https://www.yuque.com/redyouzi/ssm/mp    (更新中)
+语雀笔记地址:https://www.yuque.com/redyouzi/ssm/mp
