@@ -30,6 +30,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.22" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis.caches:mybatis-ehcache:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache:2.10.9.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.22" level="project" />

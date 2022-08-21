@@ -6,11 +6,12 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.Version;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
 @TableName("user")
-public class User {
+public class User implements Serializable {
     private Long id;
     private String name;
     @TableField(value = "pwd",select = false)

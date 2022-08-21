@@ -44,6 +44,7 @@ class ApplicationTests {
 //        wrapper.lt(User::getAge,25);
 //        List<User> users = userMapper.selectList(wrapper);
 //        System.out.println(users);
+
         LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
 //        wrapper.lt(User::getAge,25);
 //        wrapper.gt(User::getAge,21);
